@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-phantomjs-pdf",
+  "version": "0.0.1",
+  "description": "convert HTML to PDF with metalsmith",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arve0/metalsmith-phantomjs-pdf.git"
+  },
+  "keywords": [
+    "pdf",
+    "metalsmith",
+    "metalsmith-plugin",
+    "html"
+  ],
+  "author": "Arve Seljebu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arve0/metalsmith-phantomjs-pdf/issues"
+  },
+  "homepage": "https://github.com/arve0/metalsmith-phantomjs-pdf#readme",
+  "dependencies": {
+    "nodepdf-series": "^1.1.1"
+  }
+}
