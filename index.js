@@ -5,7 +5,7 @@ var os = require('os');
 
 module.exports = function (opts) {
   opts = opts || {};
-  var concurrent = opts.concurrent || os.cpus().length * 2;
+  var concurrent = opts.concurrent || os.cpus().length;
 
   return function phantomPDF (files, metalsmith, done) {
     var filenames = Object.keys(files).map(function (filename) {
